@@ -85,14 +85,15 @@ function up1(){
     if (RovY1 >=0){
         RovY1 = RovY1-10;
         uploadBackground();
-            uploadRover();
+            uploadRover1();
+            uploadRover2();
             console.log("when up is pressed X="+RovX1+" Y ="+RovY1);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -102,14 +103,15 @@ function down1(){
     if (RovY1 <=400){
         RovY1 = RovY1+10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when down is pressed X="+RovX1+" Y ="+RovY1);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -119,14 +121,15 @@ function left1(){
     if (RovX1 >=0){
         RovX1 = RovX1-10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when left is pressed X="+RovX1+" Y ="+RovY1);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -136,14 +139,15 @@ function right1(){
     if (RovX1 <=1000){
         RovX1 = RovX1+10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when right is pressed X="+RovX1+" Y ="+RovY1);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -153,14 +157,15 @@ function up2(){
     if (RovY2 >=0){
         RovY2 = RovY2-10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when up is pressed X="+RovX2+" Y ="+RovY2);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -170,14 +175,15 @@ function down2(){
     if (RovY2 <=400){
         RovY2 = RovY2+10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when down is pressed X="+RovX2+" Y ="+RovY2);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -187,14 +193,15 @@ function left2(){
     if (RovX2 >=0){
         RovX2 = RovX2-10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when left is pressed X="+RovX2+" Y ="+RovY2);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
@@ -204,14 +211,15 @@ function right2(){
     if (RovX2 <=1000){
         RovX2 = RovX2+10;
         uploadBackground();
-            uploadRover();
+        uploadRover1();
+        uploadRover2();
             console.log("when right is pressed X="+RovX2+" Y ="+RovY2);
     }
-    if(Ro1>1000){
+    if(RovX1>1000){
         console.log("car1 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow keys has won!"
     }
-    if(Ro2>1000){
+    if(RovX2>1000){
         console.log("car2 won")
         document.getElementById("GameStatus").innerHTML="Player using arrow WASD has won!"
     }
